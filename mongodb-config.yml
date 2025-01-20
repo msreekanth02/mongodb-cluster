@@ -4,8 +4,8 @@ name: mongodb-cluster
 nodes:
   - role: control-plane
     extraPortMappings:
-      - containerPort: 27017
-        hostPort: 27017
+      - containerPort: 30001
+        hostPort: 30001
         protocol: TCP
   - role: worker
   - role: worker
